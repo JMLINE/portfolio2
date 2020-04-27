@@ -1,0 +1,1 @@
+// No javaScript was harmed in the making of this portfolio
