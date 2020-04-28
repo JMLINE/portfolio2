@@ -4,6 +4,7 @@ body{
 
 
 .navbar-container{
+   
     background-color: #222831;
     height: 50px;
     padding: 0px;
@@ -14,6 +15,7 @@ body{
     
 }
 .navbar{
+    
     list-style: none;
     color: white;
     display: flex;
@@ -22,11 +24,13 @@ body{
     justify-content: center;
     color: white;
     margin-top: 0;
+  
     
     
 }
 
 .navbar li {
+ 
     list-style-type: none;
     padding: 0 40px;
 }
@@ -39,8 +43,9 @@ body{
     
 }
 
-.title-container{
-    padding: 50px;
+.con1{
+  
+   padding: 40px;
    
     background-image: url("portfolio_images/texture.jpg");
     background-size: cover;
@@ -49,21 +54,26 @@ body{
     background-attachment: fixed;
     color: white;
 }
-.name{
-    font-size: 75pt;
+.name1{
+    font-size: 60pt;
 }
-.sub{
+.sub2{
+    text-align: left;
+    padding: 40px;
+    padding: 120px;
     font-size: 25pt;
     color:white;
-    position: absolute;
-    bottom: 10px;
-    width: 50%;
+    
+   
+   
+    
+    
  
    
 }
 
 .face{
-    text-align: left;
+    text-align: right;
    
     border-top: green;
 }
@@ -110,6 +120,9 @@ body{
     color: white;
 }
 .card-container{
+    
+    min-width: 350px;
+  
     padding: 50px;
    
     background-image: url("portfolio_images/crash.jpg");
@@ -125,7 +138,7 @@ body{
     padding: 15px;
 }
 
-.col-6{
+.col-4{
     color: white;
     font-size: larger;
 }
