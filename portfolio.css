@@ -34,8 +34,9 @@ body {
 
 .social {
     margin-left: auto;
-
 }
+
+
 
 .con1 {
     padding: 120px;
@@ -47,7 +48,7 @@ body {
 }
 
 .name1 {
-    font-size: 60pt;
+    font-size: 40pt;
 }
 
 .sub2 {
@@ -138,7 +139,7 @@ body {
 }
 
 .contact {
-    padding: 45px;
+    padding: 15px;
     color: white;
     background-color: #27496d;
 
