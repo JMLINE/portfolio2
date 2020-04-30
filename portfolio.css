@@ -42,22 +42,24 @@ body {
 
 
 .con1 {
+    
     padding: 120px;
     background-image: url("portfolio_images/texture.jpg");
     background-size: cover;
     font-family: 'Pragati Narrow', sans-serif;
     background-attachment: fixed;
     color: white;
+    text-align: center;
 }
 
 .name1 {
-    font-size: 40pt;
+    font-size: 4vw;
 }
 
 .sub2 {
     text-align: left;
-    padding: 40px;
-    font-size: 25pt;
+    padding: 30px;
+    font-size: 3vw;
     color: white;
 }
 
