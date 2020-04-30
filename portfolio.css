@@ -3,13 +3,15 @@ body {
 }
 
 .navbar-container {
-    
+
     background-color: #222831;
     height: 50px;
     padding: 0px;
     position: fixed;
     width: 100%;
-    z-index: +3
+    z-index: +3;
+
+
 }
 
 .navbar {
@@ -17,8 +19,6 @@ body {
     color: white;
     display: flex;
     height: 100%;
-    align-items: center;
-    justify-content: center;
     color: white;
     margin-top: 0;
 
@@ -27,6 +27,7 @@ body {
 .navbar li {
     list-style-type: none;
     padding: 0 40px;
+  
 }
 
 .navbar a:hover {
@@ -42,15 +43,15 @@ body {
 
 
 .con1 {
-    
+
     padding: 50px;
     background-image: url("portfolio_images/texture.jpg");
     background-size: cover;
     font-family: 'Pragati Narrow', sans-serif;
     background-attachment: fixed;
     color: white;
-   font-size:60px;
-   text-align: center;
+    font-size: 60px;
+    text-align: center;
 }
 
 .name1 {
@@ -70,6 +71,7 @@ body {
 .about-container {
     padding: 50px;
     background-image: url("portfolio_images/texture2.jpg");
+    opacity: 0.9;
     background-size: cover;
     font-family: 'Pragati Narrow', sans-serif;
     background-attachment: fixed;
@@ -87,13 +89,17 @@ body {
 }
 
 .aboutPara {
-    font-size: 2vw;
+    font-size: 4vh;
     font-family: 'Roboto', sans-serif;
     color: white;
-    text-shadow: red 5px 7px 10px;
-    
+    opacity: 1.0;
     word-wrap: break-word;
 }
+
+.face {
+    text-align: center;
+}
+
 
 .efa {
     text-align: center;
@@ -183,7 +189,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #c5cace;
-    background-image: url(./portfolio_images/mail.gif);
+    background-image: url(./portfolio_images/letter.gif);
+    filter: saturate(10);
     background-size: contain;
     background-repeat: no-repeat;
 
