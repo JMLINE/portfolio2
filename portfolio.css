@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-container {
-
+    
     background-color: #222831;
     height: 50px;
     padding: 0px;
@@ -11,7 +11,7 @@ body {
     width: 100%;
     z-index: +3;
 
-
+    
 }
 
 .navbar {
@@ -20,14 +20,14 @@ body {
     display: flex;
     height: 100%;
     color: white;
-    margin-top: 0;
+  
 
 }
+
 
 .navbar li {
     list-style-type: none;
     padding: 0 40px;
-  
 }
 
 .navbar a:hover {
@@ -43,15 +43,15 @@ body {
 
 
 .con1 {
-
+    
     padding: 50px;
     background-image: url("portfolio_images/texture.jpg");
     background-size: cover;
     font-family: 'Pragati Narrow', sans-serif;
     background-attachment: fixed;
     color: white;
-    font-size: 60px;
-    text-align: center;
+   font-size:60px;
+   text-align: center;
 }
 
 .name1 {
@@ -89,14 +89,13 @@ body {
 }
 
 .aboutPara {
-    font-size: 4vh;
+    font-size: 3vh;
     font-family: 'Roboto', sans-serif;
     color: white;
-    opacity: 1.0;
+    opacity: 1.0; 
     word-wrap: break-word;
 }
-
-.face {
+.face{
     text-align: center;
 }
 
