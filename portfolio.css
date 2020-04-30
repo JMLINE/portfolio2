@@ -83,11 +83,12 @@ body {
 }
 
 .aboutPara {
-    font-size: 24px;
+    font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     color: white;
     text-shadow: red 5px 7px 10px;
-    float: left;
+    
+    word-wrap: break-word;
 }
 
 .efa {
