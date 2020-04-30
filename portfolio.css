@@ -54,10 +54,11 @@ body {
 
 .name1 {
     font-size: 4vw;
+    text-align: center;
 }
 
 .sub2 {
-    text-align: left;
+    text-align: center;
     padding: 30px;
     font-size: 3vw;
     color: white;
